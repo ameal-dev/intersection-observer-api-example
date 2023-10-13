@@ -49,10 +49,12 @@ function App() {
       style={{
         height: '150vh',
         display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'end',
+        justifyContent: 'space-between',
+        flexDirection: 'column',
+        alignItems: 'center',
       }}
     >
+      <h1 style={{ fontSize: '4rem', margin: '4rem' }}>Scroll Down</h1>
       <div
         className='box'
         ref={boxRef}
